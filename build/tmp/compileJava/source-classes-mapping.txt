@@ -9,3 +9,10 @@ org/example/book/springboot/Application.java
  org.example.book.springboot.Application
 org/example/book/springboot/web/HelloController.java
  org.example.book.springboot.web.HelloController
+org/example/book/springboot/web/PostsApiController.java
+ org.example.book.springboot.web.PostsApiController
+org/example/book/springboot/web/dto/PostsSaveRequestDto.java
+ org.example.book.springboot.web.dto.PostsSaveRequestDto
+ org.example.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+org/example/book/springboot/service/posts/PostsService.java
+ org.example.book.springboot.service.posts.PostsService
