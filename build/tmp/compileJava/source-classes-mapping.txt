@@ -4,8 +4,11 @@ org/example/book/springboot/web/dto/HelloResponseDto.java
  org.example.book.springboot.web.dto.HelloResponseDto
 org/example/book/springboot/web/HelloController.java
  org.example.book.springboot.web.HelloController
-org/example/book/springboot/Application.java
- org.example.book.springboot.Application
+org/example/book/springboot/web/dto/PostsUpdateRequestDto.java
+ org.example.book.springboot.web.dto.PostsUpdateRequestDto
+ org.example.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+org/example/book/springboot/domain/BaseTimeEntity.java
+ org.example.book.springboot.domain.BaseTimeEntity
 org/example/book/springboot/web/PostsApiController.java
  org.example.book.springboot.web.PostsApiController
 org/example/book/springboot/web/dto/PostsResponseDto.java
@@ -16,8 +19,7 @@ org/example/book/springboot/web/dto/PostsSaveRequestDto.java
 org/example/book/springboot/domain/posts/Posts.java
  org.example.book.springboot.domain.posts.Posts
  org.example.book.springboot.domain.posts.Posts$PostsBuilder
+org/example/book/springboot/Application.java
+ org.example.book.springboot.Application
 org/example/book/springboot/service/posts/PostsService.java
  org.example.book.springboot.service.posts.PostsService
-org/example/book/springboot/web/dto/PostsUpdateRequestDto.java
- org.example.book.springboot.web.dto.PostsUpdateRequestDto
- org.example.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
