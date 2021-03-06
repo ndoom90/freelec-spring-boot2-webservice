@@ -23,3 +23,5 @@ org/example/book/springboot/Application.java
  org.example.book.springboot.Application
 org/example/book/springboot/service/posts/PostsService.java
  org.example.book.springboot.service.posts.PostsService
+org/example/book/springboot/web/IndexController.java
+ org.example.book.springboot.web.IndexController
