@@ -138,3 +138,6 @@ hs_err_pid*
 
 # Additional
 *.DS_Store
+
+# Google login information
+application-oauth.properties
