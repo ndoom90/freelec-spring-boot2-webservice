@@ -1,6 +1,7 @@
 package org.example.book.springboot.web;
 
 import lombok.RequiredArgsConstructor;
+import org.example.book.springboot.config.auth.LoginUser;
 import org.example.book.springboot.config.auth.dto.SessionUser;
 import org.example.book.springboot.service.posts.PostsService;
 import org.example.book.springboot.web.dto.PostsResponseDto;
@@ -24,12 +25,14 @@ public class IndexController {
     }
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+
+        // djfljfj
         if (user != null) {
             model.addAttribute("userName", user.getName());
         }
+
         return "index";
     }
 
