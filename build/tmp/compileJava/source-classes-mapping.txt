@@ -9,8 +9,10 @@ org/example/book/springboot/web/dto/PostsListResponseDto.java
  org.example.book.springboot.web.dto.PostsListResponseDto
 org/example/book/springboot/web/IndexController.java
  org.example.book.springboot.web.IndexController
-org/example/book/springboot/web/HelloController.java
- org.example.book.springboot.web.HelloController
+org/example/book/springboot/config/JpaConfig.java
+ org.example.book.springboot.config.JpaConfig
+org/example/book/springboot/Application.java
+ org.example.book.springboot.Application
 org/example/book/springboot/domain/user/UserRepository.java
  org.example.book.springboot.domain.user.UserRepository
 org/example/book/springboot/service/posts/PostsService.java
@@ -47,7 +49,5 @@ org/example/book/springboot/web/dto/PostsUpdateRequestDto.java
  org.example.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 org/example/book/springboot/config/auth/SecurityConfig.java
  org.example.book.springboot.config.auth.SecurityConfig
-org/example/book/springboot/config/JpaConfig.java
- org.example.book.springboot.config.JpaConfig
-org/example/book/springboot/Application.java
- org.example.book.springboot.Application
+org/example/book/springboot/web/HelloController.java
+ org.example.book.springboot.web.HelloController
