@@ -25,8 +25,31 @@ repositories {
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.projectlombok:lombok'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'com.h2database:h2'
+    compile 'org.springframework.boot:spring-boot-starter-mustache'
+    compile 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    compile 'org.springframework.session:spring-session-jdbc'
+    annotationProcessor 'org.projectlombok:lombok'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile 'org.projectlombok:lombok'
+    testCompile 'org.springframework.security:spring-security-test'
+    testImplementation group: 'junit', name: 'junit'
+    testAnnotationProcessor 'org.projectlombok:lombok'
+
+//    compileOnly 'org.projectlombok:lombok'
+//    annotationProcessor 'org.projectlombok:lombok'
+//    testAnnotationProcessor 'org.projectlombok:lombok'
+//    testCompile 'org.projectlombok:lombok'
+//    testImplementation 'org.projectlombok:lombok'
+
+//    compile('org.springframework.boot:spring-boot-starter-web')
+//    compile('org.projectlombok:lombok')
+//    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 test {
